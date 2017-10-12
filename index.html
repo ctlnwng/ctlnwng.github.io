@@ -7,31 +7,137 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:100,100i,300,300i,400,400i,500,500i,700,700i" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i" rel="stylesheet">
 
-    <link href="style.css" rel="stylesheet">
+    <link href="css/simple-grid.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
-    <div class="container">
-        <h1 id="title">Caitlin is a(n)</h1>
-    </div>
+    <header>
+        <!--Top right nav-->
+        <div class="container" id="nav-container">
+            <div class="col-12">
+                <ul id="main-nav">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Resume</a></li>
+                    <li><a href="#">LinkedIn</a></li>
+                    <li><a href="#">Email</a></li>
+                    <li><a href="#">Extra</a></li>
+                </ul>
+            </div>
+        </div>
 
-    <div class="container">
-        <ul id="description">
-            <li>Student at Northeastern University</li>
-            <li>Lover of dogs and sudoku</li>
-            <li>Aspiring designer and developer</li>
-            <li>Novice <a href="https://www.flickr.com/photos/148625328@N03/albums" target="_blank">
-            photographer</a> and <a href="https://www.youtube.com/channel/UCSTIKtMpZ43U3E-GEB8IA2g" target="_blank">videographer</a></li>
-        </ul>
-    </div>
+        <div id="intro">
+            <div class="container">
+                <div class="col-12">
+                    <h1 id="title">Caitlin is a(n)</h1>
+                </div>
+            </div>
 
-    <div class="container"><p id="contact">Here is her <a href="files/caitlinwang-resume.pdf" target="_blank">resume</a>. She can be reached at caitlinwang97 (at) gmail (dot) com</p>
-    <br></div>
+            <div class="container">
+                <div class="col-12">
+                    <ul id="description">
+                        <li>student at Northeastern University.</li>
+                        <li>lover of dogs and sudoku.</li>
+                        <li>aspiring designer and developer.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div style="height: 150px"></div>
+    </header>
 
-    <div class="container"><img src="files/portrait.jpg" id="portrait"></div>
+    <main class="experience">
+        <section class="projects">
+            <div class="container">
+                <div class="col-12">
+                    <p class="heading">Projects</p>
+                </div>
+                <div class="row">
+                    <div class="col-4">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="experience">
+            <div class="container">
+                <div class="col-12">
+                    <p class="heading">Experience</p>
+                </div>
+                <div class="row">
+                    <div class="col-3">
+                        <ul class="left-col">
+                            <li>Jan 2017 - Present</li>
+                            <li>May 2017 - July 2017</li>
+                            <li>Sep 2016 - Dec 2016</li>
+                        </ul>
+                    </div>
+                    <div class="col-9">
+                        <ul class="right-col">
+                            <li>Tutor for CS 2500</li>
+                            <li>Intern at <a href="http://www.bonapp.net/">Bon App!</a></li>
+                            <li>Graphic Design Assistant</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills">
+            <div class="container">
+                <div class="col-12">
+                    <p class="heading">Skills</p>
+                </div>
+                <div class="row">
+                    <div class="col-3">
+                        <ul class="left-col">
+                            <li>Design</li>
+                            <li>Development</li>
+                            <li>Other</li>
+                        </ul>
+                    </div>
+                    <div class="col-9">
+                        <ul class="right-col">
+                            <li>InDesign, Illustrator, Photoshop</li>
+                            <li>HTML/CSS, Java</li>
+                            <li>Fluent in Mandarin</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="currently">
+            <div class="container">
+                <div class="col-12">
+                    <p class="heading">Currently</p>
+                </div>
+                <div class="row">
+                    <div class="col-3">
+                        <ul class="left-col">
+                            <li>Reading</li>
+                            <li>Watching</li>
+                            <li>Learning</li>
+                            <li>Eating</li>
+                        </ul>
+                    </div>
+                    <div class="col-9">
+                        <ul class="right-col">
+                            <li>The Four Agreements</li>
+                            <li>Mr. Robot</li>
+                            <li>Javascript</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer></footer>
+
 </body>
 
 </html>
