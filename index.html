@@ -7,137 +7,147 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i" rel="stylesheet">
+    <!--favicon-->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 
-    <link href="css/simple-grid.css" rel="stylesheet">
+    <!--fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Barlow:200,300,400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
+
+    <!--stylesheets and scripts-->
     <link href="css/style.css" rel="stylesheet">
+    <script src="script.js"></script>
 </head>
 
 <body>
-    <header>
-        <!--Top right nav-->
-        <div class="container" id="nav-container">
-            <div class="col-12">
-                <ul id="main-nav">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Resume</a></li>
-                    <li><a href="#">LinkedIn</a></li>
-                    <li><a href="#">Email</a></li>
-                    <li><a href="#">Extra</a></li>
+    <!--main top-right nav-->
+    <div class="nav-container">
+        <div class="nav">
+            <ul>
+                <li>
+                    <a href="">Home</a>
+                </li>
+                <li>
+                    <a href="assets/caitlin-wang-resume.pdf" target="_blank">Resume</a>
+                </li>
+                <li>
+                    <a href="https://goo.gl/JnjcqA " target="_blank">LinkedIn</a>
+                </li>
+                <li>
+                    <a href="https://github.com/ctlnwng" target="_blank">Github</a>
+                </li>
+                <!--
+                <li>
+                    <a href="#">Extra</a>
+                </li>-->
+            </ul>
+        </div>
+    </div>
+
+    <!--header with title and description-->
+    <div class="header-container">
+        <div class="header">
+            <div class="page-title">
+                Caitlin is a(n)
+            </div>
+            <div class="page-description">
+                <ul>
+                    <li>student at Northeastern University.</li>
+                    <li>lover of dogs, typography, and sudoku.</li>
+                    <li>aspiring designer and developer.</li>
                 </ul>
             </div>
         </div>
+    </div>
 
-        <div id="intro">
-            <div class="container">
-                <div class="col-12">
-                    <h1 id="title">Caitlin is a(n)</h1>
-                </div>
+    <!--main page content-->
+    <div class="content-container projects">
+        <div class="content">
+            <!--category headings-->
+            <div class="heading-row">
+                <a class="heading selected" onClick="clickHeading(this, 'projects')">Projects</a>
+                <a class="heading" onClick="clickHeading(this, 'experience')">Experience</a>
+                <a class="heading" onClick="clickHeading(this, 'currently')">Currently</a>
             </div>
 
-            <div class="container">
-                <div class="col-12">
-                    <ul id="description">
-                        <li>student at Northeastern University.</li>
-                        <li>lover of dogs and sudoku.</li>
-                        <li>aspiring designer and developer.</li>
-                    </ul>
+            <!--projects-->
+            <section class="main-content projects">
+                <div class="project-row">
+                    <div class="project" id="fenway">
+                        <a href="https://ctlnwng.github.io/colors-of-fenway/index.html" class="proj-title" target="_blank">Colors of Fenway</a>
+                        <p class="proj-des">A psychogeographical map.</p>
+                    </div>
+                    <div class="project" id="trump">
+                        <a href="https://github.com/ctlnwng/hipDonaldTrump" class="proj-title" target="_blank">Hip Donald Trump</a>
+                        <p class="proj-des">An immature Twitter bot.</p>
+                    </div>
+                    <!--
+                    <div class="project" id="low-poly">
+                        <a href="" class="proj-title" target="_blank">Low-Poly Artwork</a>
+                        <p class="proj-des">A collection of vector drawings.</p>
+                    </div>-->
                 </div>
-            </div>
+            </section>
+
+            <!--experience-->
+            <section class="main-content experience">
+                <div class="content-row" id="tutor">
+                    <div class="left-col date">Jan 2017 - Present</div>
+                    <div class="right-col job-title">
+                        <p>Tutor for
+                            <a href="https://course.ccs.neu.edu/cs2500/">CS 2500</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="content-row" id="bonapp">
+                    <div class="left-col date">May 2017 - July 2017</div>
+                    <div class="right-col job-title">
+                        <p>Intern at
+                            <a href="http://www.bonapp.net/">Bon App!</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="content-row" id="gd-assistant">
+                    <div class="left-col date">Sep 2016 - Dec 2016</div>
+                    <div class="right-col job-title">
+                        <p>Graphic Design Assistant at
+                            <a href="https://goo.gl/TUJmiW">Northeastern University Events</a>
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!--currently-->
+            <section class="main-content currently">
+                <div class="content-row" id="reading">
+                    <div class="left-col action-verb">Reading</div>
+                    <div class="right-col item">
+                        <a href="https://goo.gl/H3CQhT" target="_blank">Lean In</a>
+                    </div>
+                </div>
+                <div class="content-row" id="watching">
+                    <div class="left-col action-verb">Watching</div>
+                    <div class="right-col item">Mr. Robot, Riverdale, Stranger Things 2</div>
+                </div>
+                <!--
+                <div class="content-row" id="listening">
+                    <div class="left-col action-verb">Listening</div>
+                    <div class="right-col item">
+                        <a href="" target="_blank"></a>
+                    </div>
+                </div>-->
+                <div class="content-row" id="learning">
+                    <div class="left-col action-verb">Learning</div>
+                    <div class="right-col item">JavaScript</div>
+                </div>
+                <div class="content-row" id="loving">
+                    <div class="left-col action-verb">Loving</div>
+                    <div class="right-col item">
+                        <a href="https://goo.gl/JG97kk" target="_blank">Soy candles</a>
+                    </div>
+                </div>
+            </section>
         </div>
-        <div style="height: 150px"></div>
-    </header>
-
-    <main class="experience">
-        <section class="projects">
-            <div class="container">
-                <div class="col-12">
-                    <p class="heading">Projects</p>
-                </div>
-                <div class="row">
-                    <div class="col-4">
-
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="experience">
-            <div class="container">
-                <div class="col-12">
-                    <p class="heading">Experience</p>
-                </div>
-                <div class="row">
-                    <div class="col-3">
-                        <ul class="left-col">
-                            <li>Jan 2017 - Present</li>
-                            <li>May 2017 - July 2017</li>
-                            <li>Sep 2016 - Dec 2016</li>
-                        </ul>
-                    </div>
-                    <div class="col-9">
-                        <ul class="right-col">
-                            <li>Tutor for CS 2500</li>
-                            <li>Intern at <a href="http://www.bonapp.net/">Bon App!</a></li>
-                            <li>Graphic Design Assistant</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="skills">
-            <div class="container">
-                <div class="col-12">
-                    <p class="heading">Skills</p>
-                </div>
-                <div class="row">
-                    <div class="col-3">
-                        <ul class="left-col">
-                            <li>Design</li>
-                            <li>Development</li>
-                            <li>Other</li>
-                        </ul>
-                    </div>
-                    <div class="col-9">
-                        <ul class="right-col">
-                            <li>InDesign, Illustrator, Photoshop</li>
-                            <li>HTML/CSS, Java</li>
-                            <li>Fluent in Mandarin</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="currently">
-            <div class="container">
-                <div class="col-12">
-                    <p class="heading">Currently</p>
-                </div>
-                <div class="row">
-                    <div class="col-3">
-                        <ul class="left-col">
-                            <li>Reading</li>
-                            <li>Watching</li>
-                            <li>Learning</li>
-                            <li>Eating</li>
-                        </ul>
-                    </div>
-                    <div class="col-9">
-                        <ul class="right-col">
-                            <li>The Four Agreements</li>
-                            <li>Mr. Robot</li>
-                            <li>Javascript</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer></footer>
-
+    </div>
 </body>
-
 </html>
