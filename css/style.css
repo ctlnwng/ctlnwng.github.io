@@ -36,32 +36,32 @@ li {
 
 /*Main navigation*/
 
-.nav-container {
+nav {
     background-color: white;
     display: flex;
     justify-content: flex-end;
     padding-top: 50px;
     padding-right: 150px;
 }
+
+nav a {
+    color: #404647;
+}
   
-.nav {
+.nav-content {
     display: flex;
     text-align: right;
 }
 
-.nav a {
-    color: #404647;
-}
-
 /*Header (title + description)*/
 
-.header-container {
+header {
     display: flex;
     justify-content: flex-start;
     padding: 0 0 200px 0;
 }
 
-.header {
+.header-content {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -80,7 +80,7 @@ li {
 
 /*Main content*/
 
-.content-container {
+main {
     background-color: #cedee0;
     display: flex;
 }
@@ -166,15 +166,15 @@ li {
 
 /*Switching tabs*/
 
-.content-container.projects section.projects {
+main.projects section.projects {
     display: block;
 }
 
-.content-container.experience section.experience {
+main.experience section.experience {
     display: block;
 }
 
-.content-container.currently section.currently {
+main.currently section.currently {
     display: block;
 }
 
@@ -184,11 +184,11 @@ li {
 @media only screen and (max-width: 1690px) {}
 @media only screen and (max-width: 1280px) {}
 @media only screen and (max-width: 980px) {
-    .nav-container {
+    nav {
         padding-right: 100px;
     }
 
-    .header {
+    .header-content {
         padding: 0 100px;
     }
 
@@ -216,11 +216,11 @@ li {
 }
 
 @media only screen and (max-width: 736px) { 
-    .nav-container {
+    nav {
         padding-right: 50px;
     }
 
-    .header {
+    .header-content {
         padding: 0 50px;
     }
 
@@ -267,27 +267,27 @@ li {
  }
 
 @media only screen and (max-width: 480px) {
-    .nav-container {
+    nav {
         padding-left: 50px;
         padding-right: 50px;
         justify-content: flex-start;
         flex-wrap: wrap;
     }
 
-    .nav-container li {
+    nav li {
         display: inline;
     }
 
-    .nav {
+    .nav-content {
         font-size: 16px;
         text-align: left;
     }
 
-    .header-container {
+    header {
         padding-bottom: 100px;
     }
 
-    .header {
+    .header-content {
         padding: 30px 50px 0 50px;
     }
 
@@ -333,7 +333,3 @@ li {
         font-size: 14px;
     }
 }
-
-
-
-

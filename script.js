@@ -6,9 +6,9 @@ function clickHeading(elem, headingName) {
     }
     elem.classList.add('selected');
 
-    var content = document.getElementsByClassName('content-container');
+    var content = document.getElementsByTagName('main');
     var contentDiv = content.item(0);
-    var oldClass = contentDiv.classList.item(1);
+    var oldClass = contentDiv.classList.item(0);
     
     contentDiv.classList.remove(oldClass);
     contentDiv.classList.add(headingName);
