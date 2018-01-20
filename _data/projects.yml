@@ -1,6 +1,14 @@
+- name: Animator
+  description: A Java program that reads animation files and displays animations.
+  url: https://github.com/ctlnwng/animator
+
 - name: Former French Concession Guide
-  description: An online guide the streets of Shanghai's Former French Concession area.
+  description: A guide to the streets of Shanghai's Former French Concession area.
   url: https://ctlnwng.github.io/ffc-shanghai/
+
+- name: Personal Website
+  description: \#meta
+  url: https://github.com/ctlnwng/ctlnwng.github.io
 
 - name: Hip Donald Trump
   description: An immature Twitter bot.
@@ -9,3 +17,7 @@
 - name: Colors of Fenway
   description: A psychogeographical map.
   url: https://ctlnwng.github.io/colors-of-fenway/
+
+- name: Squarespace Sites
+  description: A collection of Squarespace sites I developed for 3 clients.
+  url: 

@@ -111,11 +111,13 @@ section {
     width: 100%;
     display: flex;
     justify-content: flex-start;
+    flex-wrap: wrap;
 }
 
 .project {
-    width: 250px;
-    margin-right: 40px;
+    width: 33%;
+    padding-right: 40px;
+    margin-top: 20px;
 }
 
 .proj-des {
@@ -196,6 +198,10 @@ main.currently section.currently {
     .heading-row {
         width: 500px;
         font-size: 32px;
+    }
+
+    .project {
+        width: 50%;
     }
 
     .content-row {
