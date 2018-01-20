@@ -1,0 +1,11 @@
+- name: Former French Concession Guide
+  description: An online guide the streets of Shanghai's Former French Concession area.
+  url: https://ctlnwng.github.io/ffc-shanghai/
+
+- name: Hip Donald Trump
+  description: An immature Twitter bot.
+  url: https://github.com/ctlnwng/hipDonaldTrump
+
+- name: Colors of Fenway
+  description: A psychogeographical map.
+  url: https://ctlnwng.github.io/colors-of-fenway/

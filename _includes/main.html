@@ -1,0 +1,52 @@
+<main class="projects">
+
+    <!--category headings-->
+    <div class="heading-row">
+        <a class="heading selected" onClick="clickHeading(this, 'projects')">Projects</a>
+        <a class="heading" onClick="clickHeading(this, 'experience')">Experience</a>
+        <a class="heading" onClick="clickHeading(this, 'currently')">Currently</a>
+    </div>
+
+    <!--projects-->
+    <section class="main-content projects">
+        <div class="project-row">
+            {% for project in site.data.projects %}
+            <div class="project">
+                <a href="{{ project.url }}" class="proj-title">{{ project.name }}</a>
+                <p class="proj-des">{{ project.description }}</p>
+            </div>
+            {% endfor %}
+        </div>
+    </section>
+
+    <!--experience-->
+    <section class="main-content experience">
+        {% for experience in site.data.experience %}
+        <div class="content-row">
+            <div class="left-col">{{ experience.dates }}</div>
+            <div class="right-col">
+                <p>{{ experience.job }}
+                    <a href="{{ experience.url }}">{{ experience.employer }}</a>
+                </p>
+            </div>
+        </div>
+        {% endfor %}
+    </section>
+
+    <!--currently-->
+    <section class="main-content currently">
+        {% for category in site.data.currently %}
+        <div class="content-row">
+            <div class="left-col">{{ category.verb }}</div>
+            <div class="right-col">
+                <p>{% for item in category.items %} {% if forloop.last == true %}
+                    <a href="{{ item.url }}">{{ item.name }}</a>
+                    {% else %}
+                    <a href="{{ item.url }}">{{ item.name }}</a>, {% endif %} {% endfor %}
+                </p>
+            </div>
+        </div>
+        {% endfor %}
+    </section>
+
+</main>

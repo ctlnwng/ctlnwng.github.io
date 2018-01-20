@@ -1,0 +1,11 @@
+- name: Home
+  url: /
+
+- name: Resume
+  url: caitlin-wang-resume.pdf
+
+- name: LinkedIn
+  url: https://goo.gl/JnjcqA
+
+- name: Github
+  url: https://github.com/ctlnwng

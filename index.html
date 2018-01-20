@@ -1,52 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <title>Caitlin Wang</title>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!--favicon-->
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-
-    <!--fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Barlow:200,300,400" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
-
-    <!--stylesheets and scripts-->
-    <link href="css/style.css" rel="stylesheet">
-    <script src="script.js"></script>
-</head>
-
-<body>
+---
+layout: default
+title: Home
+---
     <!--main top-right nav-->
-    <nav>
-        <div class="nav-content">
-            <ul>
-                <li>
-                    <a href="">Home</a>
-                </li>
-                <li>
-                    <a href="assets/caitlin-wang-resume.pdf" target="_blank">Resume</a>
-                </li>
-                <li>
-                    <a href="https://goo.gl/JnjcqA " target="_blank">LinkedIn</a>
-                </li>
-                <li>
-                    <a href="https://github.com/ctlnwng" target="_blank">Github</a>
-                </li>
-                <!--
-                <li>
-                    <a href="#">Extra</a>
-                </li>-->
-            </ul>
-        </div>
-    </nav>
+    {% include nav.html %}
 
     <!--header with title and description-->
     <header>
-        <div class="header-content">
             <div class="page-title">
                 Caitlin is a(n)
             </div>
@@ -57,98 +17,7 @@
                     <li>aspiring designer and developer.</li>
                 </ul>
             </div>
-        </div>
     </header>
 
     <!--main page content-->
-    <main class="projects">
-        <div class="content">
-            <!--category headings-->
-            <div class="heading-row">
-                <a class="heading selected" onClick="clickHeading(this, 'projects')">Projects</a>
-                <a class="heading" onClick="clickHeading(this, 'experience')">Experience</a>
-                <a class="heading" onClick="clickHeading(this, 'currently')">Currently</a>
-            </div>
-
-            <!--projects-->
-            <section class="main-content projects">
-                <div class="project-row">
-                    <div class="project" id="fenway">
-                        <a href="https://ctlnwng.github.io/colors-of-fenway/index.html" class="proj-title" target="_blank">Colors of Fenway</a>
-                        <p class="proj-des">A psychogeographical map.</p>
-                    </div>
-                    <div class="project" id="trump">
-                        <a href="https://github.com/ctlnwng/hipDonaldTrump" class="proj-title" target="_blank">Hip Donald Trump</a>
-                        <p class="proj-des">An immature Twitter bot.</p>
-                    </div>
-                    <!--
-                    <div class="project" id="low-poly">
-                        <a href="" class="proj-title" target="_blank">Low-Poly Artwork</a>
-                        <p class="proj-des">A collection of vector drawings.</p>
-                    </div>-->
-                </div>
-            </section>
-
-            <!--experience-->
-            <section class="main-content experience">
-                <div class="content-row" id="tutor">
-                    <div class="left-col date">Jan 2017 - Present</div>
-                    <div class="right-col job-title">
-                        <p>Tutor for
-                            <a href="https://course.ccs.neu.edu/cs2500/">CS 2500</a>
-                        </p>
-                    </div>
-                </div>
-                <div class="content-row" id="bonapp">
-                    <div class="left-col date">May 2017 - July 2017</div>
-                    <div class="right-col job-title">
-                        <p>Intern at
-                            <a href="http://www.bonapp.net/">Bon App!</a>
-                        </p>
-                    </div>
-                </div>
-                <div class="content-row" id="gd-assistant">
-                    <div class="left-col date">Sep 2016 - Dec 2016</div>
-                    <div class="right-col job-title">
-                        <p>Graphic Design Assistant at
-                            <a href="https://goo.gl/TUJmiW">Northeastern University Events</a>
-                        </p>
-                    </div>
-                </div>
-            </section>
-
-            <!--currently-->
-            <section class="main-content currently">
-                <div class="content-row" id="reading">
-                    <div class="left-col action-verb">Reading</div>
-                    <div class="right-col item">
-                        <a href="https://goo.gl/H3CQhT" target="_blank">Lean In</a>
-                    </div>
-                </div>
-                <div class="content-row" id="watching">
-                    <div class="left-col action-verb">Watching</div>
-                    <div class="right-col item">Mr. Robot, Riverdale, Stranger Things 2</div>
-                </div>
-                <!--
-                <div class="content-row" id="listening">
-                    <div class="left-col action-verb">Listening</div>
-                    <div class="right-col item">
-                        <a href="" target="_blank"></a>
-                    </div>
-                </div>-->
-                <div class="content-row" id="learning">
-                    <div class="left-col action-verb">Learning</div>
-                    <div class="right-col item">JavaScript</div>
-                </div>
-                <div class="content-row" id="loving">
-                    <div class="left-col action-verb">Loving</div>
-                    <div class="right-col item">
-                        <a href="https://goo.gl/JG97kk" target="_blank">Soy candles</a>
-                    </div>
-                </div>
-            </section>
-        </div>
-    </main>
-</body>
-
-</html>
+    {% include main.html %}

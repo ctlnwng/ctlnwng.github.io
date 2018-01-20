@@ -1,0 +1,10 @@
+<!--main top-right nav-->
+<nav>
+    <ul "nav-content">
+        {% for link in site.data.links %}
+        <li>
+            <a href="{{ link.url }}">{{ link.name }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+</nav>
