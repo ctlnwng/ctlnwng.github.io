@@ -23,11 +23,14 @@ li {
 /* NAV */
 nav {
   background-color: white;
-  display: flex;
+  display: flex-wrap;
   justify-content: flex-end;
-  padding-top: 50px;
-  padding-right: 150px;
+  padding: 50px 150px 0px 150px;
   text-align: right; }
+
+nav li {
+  margin-left: 10px;
+  display: inline; }
 
 /* HEADER */
 header {
@@ -35,7 +38,7 @@ header {
   flex-direction: column;
   justify-content: flex-start;
   width: 100%;
-  padding: 0px 150px 200px 150px; }
+  padding: 120px 150px 150px 150px; }
 
 .page-title {
   font-family: "Playfair Display";
@@ -50,7 +53,7 @@ main {
   display: flex;
   flex-direction: column;
   width: 100%;
-  padding: 50px 150px 200px 150px; }
+  padding: 50px 150px 150px 150px; }
 
 section {
   padding-top: 30px;
@@ -85,7 +88,7 @@ section {
 .project {
   width: 33%;
   padding-right: 40px;
-  margin-top: 20px; }
+  margin-bottom: 35px; }
 
 .proj-des {
   font-weight: 200; }
@@ -137,7 +140,7 @@ main.currently section.currently {
     font-size: 50px; }
 
   .page-description {
-    font-size: 20px; }
+    font-size: 18px; }
 
   main {
     padding-left: 100px;
@@ -162,9 +165,6 @@ main.currently section.currently {
 
   .page-title {
     font-size: 48px; }
-
-  .page-description {
-    font-size: 18px; }
 
   main {
     padding-left: 50px;

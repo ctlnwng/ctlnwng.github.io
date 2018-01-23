@@ -14,8 +14,6 @@
       url: https://www.r-project.org/
     - name: Sass
       url: http://sass-lang.com/
-    - name: CSS Grid
-      url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout
 
 - verb: Loving
   items: 
