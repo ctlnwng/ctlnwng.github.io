@@ -1,3 +1,7 @@
+- name: Middle Ground
+  description: A web app that presents a non-biased perspective on political issues by featuring news articles on either side of the debate. Built at SheHacks Boston 2018.
+  url: https://middle-ground.herokuapp.com/
+
 - name: Animator
   description: A Java program that reads instructions for an animation sequence and displays the animation with customizable controls.
   url: https://github.com/ctlnwng/animator
@@ -7,7 +11,7 @@
   url: https://ctlnwng.github.io/ffc-shanghai/
 
 - name: Personal Website
-  description: This site! AKA an online platform to share what I've been up to.
+  description: This site! Built from scratch as an online platform to share what I've been up to.
   url: https://github.com/ctlnwng/ctlnwng.github.io
 
 - name: Hip Donald Trump
