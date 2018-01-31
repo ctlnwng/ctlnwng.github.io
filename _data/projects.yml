@@ -1,6 +1,6 @@
 - name: Middle Ground
   description: A web app that presents a non-biased perspective on political issues by featuring news articles on either side of the debate. Built at SheHacks Boston 2018.
-  url: https://middle-ground.herokuapp.com/
+  url: https://github.com/chanlis/middle-ground
 
 - name: Animator
   description: A Java program that reads instructions for an animation sequence and displays the animation with customizable controls.
