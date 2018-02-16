@@ -1,13 +1,17 @@
+- name: cap.py
+  description: A photo caption generator using Google Cloud Vision. Won <i>Most Entrepreneurial Hack</i> and <i>Most Useful for the Everyday</i> at <a href="https://hackbeanpot.com/">HackBeanpot 2018</a>!
+  url: https://github.com/Shinabel/Cap.py
+
 - name: Middle Ground
-  description: A web app that presents a non-biased perspective on political issues by featuring news articles on either side of the debate. Built at SheHacks Boston 2018.
+  description: A news aggregator featuring articles with opposing political viewpoints on current issues. Built with the News and indico APIs at <a href='http://shehacks.io/'>SheHacks Boston 2018</a>.
   url: https://github.com/chanlis/middle-ground
 
 - name: Animator
-  description: A Java program that reads instructions for an animation sequence and displays the animation with customizable controls.
+  description: An interactive shape animator built in Java, employing the Swing GUI and MVC pattern. <i>(Repo is currently private)</i>
   url: https://github.com/ctlnwng/animator
 
 - name: Former French Concession Guide
-  description: A guide to the streets of Shanghai's Former French Concession using the Google Maps API.
+  description: Curated online guide to Shanghai’s Former French Concession using the Google Maps API.
   url: https://ctlnwng.github.io/ffc-shanghai/
 
 - name: Personal Website

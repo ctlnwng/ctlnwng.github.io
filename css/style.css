@@ -3,6 +3,10 @@
   padding: 0;
   box-sizing: border-box; }
 
+html {
+  background-color: #cedee0;
+}
+
 body {
   color: #404647;
   font-family: "Barlow", Arial, Helvetica, sans-serif;
@@ -38,7 +42,9 @@ header {
   flex-direction: column;
   justify-content: flex-start;
   width: 100%;
-  padding: 120px 150px 150px 150px; }
+  padding: 120px 150px 150px 150px; 
+  background-color: white;
+}
 
 .page-title {
   font-family: "Playfair Display";
@@ -91,7 +97,11 @@ section {
   margin-bottom: 35px; }
 
 .proj-des {
-  font-weight: 200; }
+  font-weight: 200;}
+  .proj-des a {
+    color: #404647;
+    border-bottom: 1px solid #404647; 
+  }
 
 .content-row {
   display: flex;
