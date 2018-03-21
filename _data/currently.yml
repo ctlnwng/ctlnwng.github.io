@@ -1,7 +1,7 @@
 - verb: Reading
   items:
-    - name: The Power of Habit
-      url: http://charlesduhigg.com/the-power-of-habit/
+    - name: Breakfast of Champions
+      url: https://www.goodreads.com/book/show/4980.Breakfast_of_Champions
 
 - verb: Watching
   items:
@@ -15,10 +15,15 @@
     - name: Sass
       url: http://sass-lang.com/
 
+- verb: Listening to
+  items:
+    - name: BØRNS
+      url: https://open.spotify.com/artist/1KP6TWI40m7p3QBTU6u2xo?si=IgMk44E7R62mDtuk4OlniA
+    - name: 99% Invisible
+      url: https://99percentinvisible.org/ 
+
 - verb: Loving
   items: 
-    - name: Soy candles
-      url: https://goo.gl/JG97kk
     - name: Glossier
       url: https://glossier.com
 
