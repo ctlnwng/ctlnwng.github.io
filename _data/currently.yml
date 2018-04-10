@@ -1,12 +1,14 @@
 - verb: Reading
   items:
-    - name: Breakfast of Champions
-      url: https://www.goodreads.com/book/show/4980.Breakfast_of_Champions
+    - name: The Opposite of Loneliness
+      url: https://www.goodreads.com/book/show/18143905-the-opposite-of-loneliness
 
 - verb: Watching
   items:
     - name: Mozart in the Jungle
       url: https://www.amazon.com/dp/B00I3MNGCG
+    - name: Silicon Valley
+      url: https://www.hbo.com/silicon-valley
 
 - verb: Learning
   items:
@@ -26,6 +28,8 @@
   items: 
     - name: Glossier
       url: https://glossier.com
+    - name: Everlane
+      url: https://www.everlane.com/
 
 
 
