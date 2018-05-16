@@ -39,10 +39,21 @@
         <div class="content-row">
             <div class="left-col">{{ category.verb }}</div>
             <div class="right-col">
-                <p>{% for item in category.items %} {% if forloop.last == true %}
-                    <a href="{{ item.url }}">{{ item.name }}</a>
+                <p>{% for item in category.items %}
+                    {% if forloop.last == true %}
+                        {% if item.url == null %}
+                            {{ item.name }}
+                        {% else %}
+                            <a href="{{ item.url }}">{{ item.name }}</a>
+                        {% endif %}
                     {% else %}
-                    <a href="{{ item.url }}">{{ item.name }}</a>, {% endif %} {% endfor %}
+                        {% if item.url == null %}
+                            {{ item.name }},
+                        {% else %}
+                            <a href="{{ item.url }}">{{ item.name }}</a>, 
+                        {% endif %}
+                    {% endif %}
+                    {% endfor %}
                 </p>
             </div>
         </div>
