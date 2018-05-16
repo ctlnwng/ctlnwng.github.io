@@ -5,17 +5,17 @@
 
 - verb: Watching
   items:
-    - name: Mozart in the Jungle
-      url: https://www.amazon.com/dp/B00I3MNGCG
+    - name: Barry
+      url: https://www.hbo.com/barry
     - name: Silicon Valley
       url: https://www.hbo.com/silicon-valley
 
 - verb: Learning
   items:
-    - name: R
-      url: https://www.r-project.org/
-    - name: Sass
-      url: http://sass-lang.com/
+    - name: React
+      url: https://reactjs.org/
+    - name: Ukelele
+      url: 
 
 - verb: Listening to
   items:
