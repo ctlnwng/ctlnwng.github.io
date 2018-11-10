@@ -1,3 +1,11 @@
+- name: Switch & Tell
+  description: An AR mobile app that gamifies authentic conversation among groups. Built at <a href="https://wellesleyhacks.org/">WHACK 2018</a>.
+  url: https://devpost.com/software/switch-tell
+
+- name: HackBeanpot
+  description: An independently-run hackathon in Boston. I am currently involved in organizing our 2019 event and have been focused on designing and developing our new website.
+  url: https://hackbeanpot.com/
+
 - name: Zelp
   description: A social restaurant recommendation platform built on the MEAN stack. Includes Yelp API integration to support restaurant searching.
   url: https://github.com/ctlnwng/zelp
@@ -29,7 +37,3 @@
 - name: Colors of Fenway
   description: An illustrative and color-focused representation of Boston's Fenway area.
   url: https://ctlnwng.github.io/colors-of-fenway/
-
-# - name: Crystyl Mo Squarespace Design
-#  description: Two Squarespace sites I created for Shanghai-based food writer and life coach, Crystyl Mo.
-#  url: 

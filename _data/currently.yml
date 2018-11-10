@@ -1,12 +1,10 @@
 - verb: Reading
   items:
-    - name: Big Magic
-      url: https://www.goodreads.com/book/show/24453082-big-magic
+    - name: The Goldfinch
+      url: https://www.goodreads.com/book/show/17333223-the-goldfinch
 
 - verb: Watching
   items:
-    - name: Barry
-      url: https://www.hbo.com/barry
     - name: Silicon Valley
       url: https://www.hbo.com/silicon-valley
 
@@ -15,19 +13,20 @@
     - name: React
       url: https://reactjs.org/
     - name: Ukelele
-      url: 
+      ? url
 
 - verb: Listening to
   items:
-    - name: BØRNS
-      url: https://open.spotify.com/artist/1KP6TWI40m7p3QBTU6u2xo?si=IgMk44E7R62mDtuk4OlniA
+    - name: Maggie Rogers
+      url: https://open.spotify.com/artist/4NZvixzsSefsNiIqXn0NDe?si=hQaV5ARhT_i_QVcNSQs5Dg
+    - name: Beach House
+      url: https://open.spotify.com/artist/56ZTgzPBDge0OvCGgMO3OY?si=HYlfZzRhSraIRfYomwXGmg
     - name: 99% Invisible
-      url: https://99percentinvisible.org/ 
+      url: https://99percentinvisible.org/
 
 - verb: Loving
-  items: 
-    - name: Girls' Night In
+  items:
+    - name: Girls' Night In Newsletter
       url: https://girlsnightin.us14.list-manage.com/track/click?u=2a1fa7a4006d95ef6edbaeacc&id=59e51ff0e9&e=4cac6fd333
-
-
-
+    - name: The New York Times Crossword
+      url: https://www.nytimes.com/crosswords
