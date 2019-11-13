@@ -1,3 +1,3 @@
-V1 of my personal site
+Early version of my personal site that's now out of commission :~)
 
-## _Current, better-looking site: https://caitlinwang.com_
+Built with [Jekyll](https://jekyllrb.com/)!
